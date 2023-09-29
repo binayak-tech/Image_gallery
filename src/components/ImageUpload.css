@@ -1,0 +1,61 @@
+.UploadForm {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: 4rem auto;
+}
+
+.UploadForm h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.FormField {
+  margin-bottom: 20px;
+}
+
+.Label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #555;
+}
+
+.Input,
+.FileInput {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.TextArea {
+  height: 120px;
+}
+
+.FileInput {
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.UploadButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.UploadButton:hover {
+  background-color: #0056b3;
+}

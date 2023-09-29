@@ -1,0 +1,51 @@
+.ImageGrid {
+  min-width: 90dvw;
+}
+
+.CenteredHeading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.image-grid {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.ImageCard {
+  background-color: #f7f7f7;
+  outline: 2px solid hotpink;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 280px; /* Smaller image cards */
+  padding: 20px;
+  margin: 10px; /* Added margin for spacing */
+}
+
+.ImageCard img {
+  max-width: 100%;
+  border-radius: 5px;
+  max-height: 200px; /* Smaller images */
+}
+
+.ImageCard p {
+  margin: 10px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.DeleteButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.DeleteButton:hover {
+  background-color: #c82333;
+}
