@@ -24,7 +24,6 @@ function ImageUpload() {
         },
       })
       .then((response) => {
-        // Handle success (e.g., show a success message)
         console.log("Image uploaded successfully:", response.data);
       })
       .catch((error) => {

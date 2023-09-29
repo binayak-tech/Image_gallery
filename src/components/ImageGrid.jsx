@@ -25,7 +25,7 @@ function ImageGrid() {
       .delete(`/api/images/${imageId}`)
       .then((response) => {
         console.log("Image deleted successfully:", response.data);
-        // After deletion, fetch images again to update the grid
+        // fetching images after deletion
         fetchImages();
       })
       .catch((error) => {
